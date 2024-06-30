@@ -1,0 +1,5 @@
+name: Storm CMS Editor
+description: Recipe to configure Rich text editor.
+recipes:
+  - core/recipes/basic_html_format_editor
+  - core/recipes/full_html_format_editor
