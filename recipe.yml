@@ -2,4 +2,13 @@ name: Storm CMS Editor
 description: Recipe to configure Rich text editor.
 recipes:
   - core/recipes/basic_html_format_editor
-  - core/recipes/full_html_format_editor
+install:
+  - ckeditor5
+  - media
+  - media_library
+  - node
+  - editoria11y
+  - editor_advanced_link
+  - entity_embed
+  - linkit
+  - responsive_tables_filter

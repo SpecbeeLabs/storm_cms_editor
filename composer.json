@@ -8,5 +8,11 @@
             "email": "malabya@specbee.com"
         }
     ],
-    "require": {}
+    "require": {
+        "drupal/linkit": "^6.1",
+        "drupal/entity_embed": "^1.6",
+        "drupal/editoria11y": "^2.1",
+        "drupal/editor_advanced_link": "^2.2",
+        "drupal/responsive_tables_filter": "^2.0"
+    }
 }

@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+label: Content
+id: content
+description: 'A Content profile to link nodes on the website.'
+matchers:
+  d94b9e43-9c76-4ceb-b2c9-a68e780bffd8:
+    id: 'entity:node'
+    uuid: d94b9e43-9c76-4ceb-b2c9-a68e780bffd8
+    settings:
+      metadata: '[node:content-type:name] | [node:created:us_date_format] by [node:author:account-name]'
+      bundles: {  }
+      group_by_bundle: true
+      substitution_type: canonical
+      limit: 20
+      include_unpublished: false
+    weight: 0
