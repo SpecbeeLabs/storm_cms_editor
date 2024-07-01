@@ -12,3 +12,6 @@ install:
   - entity_embed
   - linkit
   - responsive_tables_filter
+config:
+  import:
+    editoria11y: "*"
